@@ -277,12 +277,12 @@ function toggleNavLinksColor(type) {
     });
   } else if (type === "transparent") {
     navLinks.forEach(element => {
-      element.classList.add('text-white')
+      element.classList.add('text-black')
     });
 
     navLinksToggler.forEach(element => {
       element.classList.remove('bg-dark')
-      element.classList.add('bg-white')
+      element.classList.add('bg-black')
     });
   }
 }
